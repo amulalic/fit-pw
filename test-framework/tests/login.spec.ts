@@ -1,9 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { LoginDataFactory } from '../utils/factories/LoginDataFactory';
-import * as dotenv from 'dotenv';
-
-dotenv.config();
 
 test.describe('Login Tests', () => {
   let loginPage: LoginPage;

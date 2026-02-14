@@ -30,4 +30,4 @@ jobs:
     env:
       BASE_URL: ${{ secrets.BASE_URL }}
       VALID_USERNAME: ${{ secrets.VALID_USERNAME }}
-      VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
+      VALID_USER_PASSWORD: ${{ secrets.VALID_USER_PASSWORD }}
